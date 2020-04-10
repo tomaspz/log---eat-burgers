@@ -34,10 +34,22 @@ router.put("/api/burgers/:id", function(req, res) {
     },
     condition,
     function(result) {
-      // if (result.changedRows === 0) {
-      //   // If no rows were changed, then the ID must not exist, so 404
-      //   return res.status(404).end();
-      // }
+      console.log(result);
+      res.status(200).end();
+    }
+  );
+});
+
+router.delete("/api/burgers/:id", function(req, res) {
+  var condition = "id = " + req.params.id;
+
+  burger.deleteOne(
+    {
+      devoured: true
+    },
+    condition,
+    function(result) {
+      console.log(result);
       res.status(200).end();
     }
   );

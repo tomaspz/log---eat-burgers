@@ -13,3 +13,13 @@
 .list-group-item {
     background-color: beige;
 }
+
+.input-group{
+    text-align:center;
+}
+#ca{
+    margin-bottom: 10px;
+}
+#add-burger {
+    margin-top: 10px;
+}

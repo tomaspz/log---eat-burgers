@@ -8,8 +8,10 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-12">
+      <hr>
       <h2 class="text-center"> MENU </h2>
-      <h4 class="text-center">Burgers available to eat:</h4>
+      <hr>
+      <h4 class="text-center">Burgers Available To Eat:</h4>
       <ul>
         {{#each burgers}}
           {{#unless devoured}}
@@ -24,8 +26,10 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-12">
-      <h2 class="text-center"> OUT OF STOCK </h2>
-      <h4 class="text-center">Burgers already eaten:</h4> 
+      <hr>
+      <h2 class="text-center"> SOLD BURGERS </h2>
+      <hr>
+      <h4 class="text-center">Burgers Not Available To Eat:</h4> 
       <ul>
         {{#each burgers}}
           {{#if devoured}}
@@ -40,15 +44,16 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-12 text-center">
-      <h2>Add a Burger</h2>
-      <form class="create-form">
-
-        <div class="form-group">
+      <hr>
+      <h2>KITCHEN</h2>
+      <hr>
+      <h4>Create Your Own Burger: </h4>
+      <form class="create-form form-group justify-content-center">
+        <div class="input-group w-25 mx-auto">
           <label for="ca">Burger Name:</label>
-          <input type="text" id="ca" name="burger_name">
-        </div>
-
-        <button type="submit">Add Burger</button>
+          <input type="text" id="ca" class="form-control" name="burger_name">
+          <button id="add-burger" class="btn btn-primary btn-lg btn-block" type="submit">Add Burger</button>
+        </div>  
       </form>
     </div>
   </div>

@@ -49,7 +49,8 @@ var orm = {
       }
       cb(result);
     });
-  },
+  }, // END OF READ
+
   insertOne: function(table, cols, vals, cb) {
     var queryString = "INSERT INTO " + table;
 
@@ -60,6 +61,7 @@ var orm = {
     queryString += printQuestionMarks(vals.length);
     queryString += ") ";
 
+    console.log(queryString);
     connection.query(queryString, vals, function(err, result) {
       if (err) {
         throw err;
@@ -67,7 +69,8 @@ var orm = {
 
       cb(result);
     });
-  },
+  }, // END OF CREATE
+
   // An example of objColVals would be {name: panther, sleepy: true}
   updateOne: function(table, objColVals, condition, cb) {
     var queryString = "UPDATE " + table;
@@ -84,8 +87,23 @@ var orm = {
       }
       cb(result);
     });
-  }
-};
+  }, // END OF UPDATE
+
+  deleteOne: function(table, objColVals, condition, cb) {
+    var queryString = "DELETE FROM " + table;
+    queryString += " WHERE ";
+    queryString += condition;
+
+    console.log(queryString);
+    connection.query(queryString, function(err, result) {
+      if (err) {
+        throw err;
+      }
+      cb(result);
+    });
+  } // END OF DELETE
+
+}; // END OF ORM
 
 // Export the orm object
 module.exports = orm;
