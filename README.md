@@ -10,6 +10,10 @@ Each burger in the menu has a `Eat it!` button. When the user clicks the button,
 
 The app stores every burger in the MySQL database, whether it is eaten or not.
 
+### Animated Gif Example
+
+![Animated Gif - How it works](./public/assets/img/log-and-eat-burgers-heroku.gif).
+
 ### App Screenshot
 
 ![Log and Eat Burgers - App Screenshot](./public/assets/img/burger-screenshot.png)
@@ -24,11 +28,12 @@ The app stores every burger in the MySQL database, whether it is eaten or not.
 
 ### Updated Portfolio
 
-
+[Log and Eat Burgers - Updated Portfolio](https://tomaspz.github.io/resume-portfolio/portfolio.html)
 
 ### Overview
 
-This application is a burger logger using the following software: 
+This application is a burger logger using the following software:
+* HTML, CSS, Javascript, jQuery and Bootstrap 
 * [MySQL Community Server](https://dev.mysql.com/downloads/mysql/), 
 * [MySQL Workbench](https://dev.mysql.com/downloads/workbench/),
 * [Node](https://nodejs.org/en/), 
@@ -38,17 +43,6 @@ This application is a burger logger using the following software:
     * [MySQL NPM Package](https://www.npmjs.com/package/mysql) (database where CRUD - [Create Read Update Delete](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) - queries are done for persistent storage)
 * a simple and handmade __O.R.M__ ([Object-Realtional Mapping](https://en.wikipedia.org/wiki/Object-relational_mapping)). 
 * the software follows the __M.V.C__ ([Model-View-Controller](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)) design pattern.
-
-
-
-### MySQL Heroku Deployment Guide
-
-[MYSQL Heroku Deployment Guide](../../04-Supplemental/MySQLHerokuDeploymentProcess.pdf) 
-
-
-### App Video Example
-
-[YouTube App - How it works](https://youtu.be/msvdn95x9OM).
 
 ### Instructions
 
