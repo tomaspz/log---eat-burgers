@@ -8,7 +8,8 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-12">
-      <h2 class="text-center">Burgers available to eat: </h2>
+      <h2 class="text-center"> MENU </h2>
+      <h4 class="text-center">Burgers available to eat:</h4>
       <ul>
         {{#each burgers}}
           {{#unless devoured}}
@@ -23,7 +24,8 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-12">
-      <h2 class="text-center">Burgers already eaten: </h2>
+      <h2 class="text-center"> OUT OF STOCK </h2>
+      <h4 class="text-center">Burgers already eaten:</h4> 
       <ul>
         {{#each burgers}}
           {{#if devoured}}

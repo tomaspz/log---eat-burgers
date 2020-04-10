@@ -1,0 +1,15 @@
+.expansion-alids-init{
+    background-color: burlywood;
+}
+
+.jumbotron {
+    background-color: lightgoldenrodyellow;
+    background-image: url('/assets/img/jonathan-borba-unsplash1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.list-group-item {
+    background-color: beige;
+}

@@ -10,6 +10,21 @@ Each burger in the menu has a `Eat it!` button. When the user clicks the button,
 
 The app stores every burger in the MySQL database, whether it is eaten or not.
 
+### App Screenshot
+
+![Log and Eat Burgers - App Screenshot](./public/assets/img/burger-screenshot.png)
+
+### Deployed Heroku URL 
+
+
+### Github Repository URL
+
+[Log and Eat Burgers - GitHub Repo](https://github.com/tomaspz/log-and-eat-burgers)
+
+### Updated Portfolio
+
+
+
 ### Overview
 
 This application is a burger logger using the following software: 
@@ -32,18 +47,7 @@ This application is a burger logger using the following software:
 
 ### App Video Example
 
-* [YouTube App - How it works](https://youtu.be/msvdn95x9OM).
-
-### Deployed Heroku URL 
-
-
-### Github Repository URL
-
-[Log and Eat Burgers - GitHub Repo](https://github.com/tomaspz/log-and-eat-burgers)
-
-### Updated Portfolio
-
-
+[YouTube App - How it works](https://youtu.be/msvdn95x9OM).
 
 ### Instructions
 
