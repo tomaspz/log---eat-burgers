@@ -1,7 +1,11 @@
 {
-  "name": "mvc_design",
+  "name": "log_and_eat_burgers",
   "version": "1.0.0",
-  "description": "",
+  "description": "app to log and eat burgers",
+  "engines": {
+    "node": "10.15.x",
+    "npm": "6.14.x"
+  },
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

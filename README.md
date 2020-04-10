@@ -16,6 +16,7 @@ The app stores every burger in the MySQL database, whether it is eaten or not.
 
 ### Deployed Heroku URL 
 
+[Log and Eat Burgers - Heroku](https://log-and-eat-burgers.herokuapp.com/)
 
 ### Github Repository URL
 
